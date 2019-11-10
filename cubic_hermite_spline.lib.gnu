@@ -16,10 +16,10 @@ h11(x) = x**2 * (x - 1)
 
 
 ## combination weights can be overridden if necessary, otherwise they are defaulted to 0.4
-if !exists("wu0"){
+if (!exists("GPFUN_wu0")){
 wu0 = .4
 }
-if !exists("wu1"){
+if (!exists("GPFUN_wu1")){
 wu1 = .4
 }
 
