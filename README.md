@@ -1,6 +1,6 @@
-# gnuplot-cubic-hermite-spline
+# Cubic splines for gnuplot
 
-Library to create [cubic hermite splines](https://en.wikipedia.org/wiki/Cubic_Hermite_spline) in [gnuplot](http://www.gnuplot.info/). 
+Library to create [cubic hermite splines](https://en.wikipedia.org/wiki/Cubic_Hermite_spline) in [gnuplot](http://www.gnuplot.info/). Cubic splines are C1 piece-wise polynomial functions (of local degree 3) for which are specified value and first-derivative of the control points.
 
 ![Lagrangian Structure Function](example-lagrangian-structure-function.png)
 
