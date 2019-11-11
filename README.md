@@ -22,5 +22,7 @@ Here `xi,ui` are, respectively, the value of the spline and of its first derivat
 
 The functions `cubHerMulti2t`, ..., `cubHerMulti5t` expect, respectively, 2, ... , 5 input control points.
 
+### TODO 
+
 The library can be easily extended to more control points; the API as well should be modified to accept arrays as inputs.
 
